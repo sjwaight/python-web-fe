@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: build-deploy-python-web-config
+  namespace: pyhon-web-fe
+  labels:
+    app.kubernetes.io/name: build-deploy-python-web
+    kubernetes.azure.com/generator: devhub
+data:
